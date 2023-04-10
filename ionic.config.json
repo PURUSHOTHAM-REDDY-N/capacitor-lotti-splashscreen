@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-lotti-splashscreen",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
