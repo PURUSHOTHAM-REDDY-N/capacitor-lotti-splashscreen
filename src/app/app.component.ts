@@ -1,5 +1,5 @@
 import { Component, EnvironmentInjector, inject } from '@angular/core';
-import { IonicModule } from '@ionic/angular';
+import {IonicModule, Platform} from '@ionic/angular';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -12,5 +12,11 @@ import { CommonModule } from '@angular/common';
 export class AppComponent {
   public environmentInjector = inject(EnvironmentInjector);
 
-  constructor() {}
+  constructor(private platform:Platform) {
+    this.showSplash()
+  }
+
+  private async showSplash(){
+      this.platform.ready()
+  }
 }

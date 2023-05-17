@@ -1,0 +1,20 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "capacitor-lotti-splashscreen",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "SplashScreen": {
+    "launchAutoHide": true,
+    "launchShowDuration": 0
+  },
+  "cordova": {
+    "preferences": {
+      "LottieFullScreen": "true",
+      "LottieLoopAnimation": "true",
+      "LottieAnimationLocationLight": "public/assets/anim/splash.json",
+      "LottieAnimationLocationDark": "public/assets/anim/splash.json",
+      "LottieAnimationLocation": "public/assets/anim/splash.json",
+      "LottieScaleType": "CENTER_CROP"
+    }
+  }
+}
